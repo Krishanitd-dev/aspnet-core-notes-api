@@ -8,4 +8,7 @@ public interface INoteService
     Task<bool> UpdateAsync(int id, string title, string content);
     Task<bool> DeleteAsync(int id);
     Task<List<Note>> SearchAsync(string query);
+    Task<int> GetCountAsync();
 }
+
+

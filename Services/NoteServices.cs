@@ -61,6 +61,11 @@ public class NoteService : INoteService
         .ToList();
     return Task.FromResult(results);
     }
+
+    public Task<int> GetCountAsync()
+    {
+        return Task.FromResult(_notes.Count);
+    }
 }
 
     

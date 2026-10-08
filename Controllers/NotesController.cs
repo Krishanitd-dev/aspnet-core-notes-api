@@ -89,5 +89,12 @@ public class NotesController : ControllerBase
         return Ok(notes);
     }   
 
+    [HttpGet("count")]
+    public async Task<ActionResult<object>> GetCount()
+    {
+        var count = await _noteService.GetCountAsync();
+        return Ok(new { count });
+    }
+
 }
 
