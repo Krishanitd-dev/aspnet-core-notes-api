@@ -33,3 +33,4 @@ C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\refint\Notes API.d
 C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.pdb
 C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.genruntimeconfig.cache
 C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\ref\Notes API.dll
+C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.sourcelink.json
