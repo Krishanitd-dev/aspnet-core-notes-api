@@ -1,36 +1,38 @@
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\appsettings.Development.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\appsettings.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\Notes API.staticwebassets.endpoints.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\Notes API.exe
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\Notes API.deps.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\Notes API.runtimeconfig.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\Notes API.dll
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\Notes API.pdb
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\Microsoft.OpenApi.dll
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\tdkri\Desktop\DevProjects\Notes API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.csproj.AssemblyReference.cache
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.AssemblyInfoInputs.cache
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.AssemblyInfo.cs
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.csproj.CoreCompileInputs.cache
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\rjimswa.dswa.cache.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\scopedcss\bundle\Notes API.styles.css
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\staticwebassets.build.json.cache
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\staticwebassets.development.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.csproj.Up2Date
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.dll
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\refint\Notes API.dll
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.pdb
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.genruntimeconfig.cache
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\ref\Notes API.dll
-C:\Users\tdkri\Desktop\DevProjects\Notes API\obj\Debug\net9.0\Notes API.sourcelink.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\appsettings.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\NotesApi.Tests\obj\NotesApi.Tests.csproj.nuget.dgspec.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\NotesApi.Tests\obj\project.assets.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\Notes API.staticwebassets.endpoints.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\Notes API.exe
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\Notes API.deps.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\Notes API.runtimeconfig.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\Notes API.dll
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\Notes API.pdb
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.csproj.AssemblyReference.cache
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.AssemblyInfoInputs.cache
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.AssemblyInfo.cs
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.csproj.CoreCompileInputs.cache
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.sourcelink.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\scopedcss\bundle\Notes API.styles.css
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.csproj.Up2Date
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.dll
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\refint\Notes API.dll
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.pdb
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\Notes API.genruntimeconfig.cache
+C:\Users\tdkri\Desktop\DevProjects\Notes Api\obj\Debug\net9.0\ref\Notes API.dll
