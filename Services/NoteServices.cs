@@ -1,71 +1,97 @@
+using Microsoft.EntityFrameworkCore;
+using NotesApi.Data;
 using NotesApi.Models;
+
 namespace NotesApi.Services;
 
 public class NoteService : INoteService
 {
-    private readonly List<Note> _notes = new();
-    private int _nextId = 1;
-    public Task<List<Note>> GetAllAsync()
+    private readonly AppDbContext _context;
+
+    public NoteService(AppDbContext context)
     {
-        return Task.FromResult(_notes.ToList());
+        _context = context;
     }
 
-    public Task<Note?> GetByIdAsync(int id)
+    public async Task<List<Note>> GetAllAsync()
     {
-        var note = _notes.FirstOrDefault(n => n.Id == id);
-        return Task.FromResult(note);
+        return await _context.Notes
+            .AsNoTracking()
+            .ToListAsync();
     }
 
-    public Task<Note> CreateAsync(string title, string content)
+    public async Task<Note?> GetByIdAsync(int id)
+    {
+        return await _context.Notes
+            .AsNoTracking()
+            .FirstOrDefaultAsync(n => n.Id == id);
+    }
+
+    public async Task<Note> CreateAsync(
+        string title, string content)
     {
         var note = new Note
         {
-            Id = _nextId++,
             Title = title,
             Content = content,
             CreatedAt = DateTime.UtcNow
         };
-        _notes.Add(note);
-        return Task.FromResult(note);
+
+        _context.Notes.Add(note);
+
+        await _context.SaveChangesAsync();
+
+        return note;
     }
 
-    public Task<bool> UpdateAsync(int id, string title, string content)
+    public async Task<bool> UpdateAsync(
+        int id, string title, string content)
     {
-        var note = _notes.FirstOrDefault(n => n.Id == id);
-        if (note == null)
+        var note = await _context.Notes
+            .FirstOrDefaultAsync(n => n.Id == id);
+
+        if (note is null)
         {
-            return Task.FromResult(false);
+            return false;
         }
+
         note.Title = title;
         note.Content = content;
-        return Task.FromResult(true);
+
+        await _context.SaveChangesAsync();
+
+        return true;
     }
 
-    public Task<bool> DeleteAsync(int id)
+    public async Task<bool> DeleteAsync(int id)
     {
-        var note = _notes.FirstOrDefault(n => n.Id == id);
-        if (note == null)
+        var note = await _context.Notes
+            .FirstOrDefaultAsync(n => n.Id == id);
+
+        if (note is null)
         {
-            return Task.FromResult(false);
+            return false;
         }
-        _notes.Remove(note);
-        return Task.FromResult(true);
+
+        _context.Notes.Remove(note);
+
+        await _context.SaveChangesAsync();
+
+        return true;
     }
 
-    public Task<List<Note>> SearchAsync(string query)
+    public async Task<List<Note>> SearchAsync(string query)
     {
-    var results = _notes
-        .Where(n =>
-            n.Title.Contains(query, StringComparison.OrdinalIgnoreCase) ||
-            n.Content.Contains(query, StringComparison.OrdinalIgnoreCase))
-        .ToList();
-    return Task.FromResult(results);
+        return await _context.Notes
+            .AsNoTracking()
+            .Where(n =>
+                n.Title.Contains(query) ||
+                n.Content.Contains(query))
+            .ToListAsync();
     }
 
-    public Task<int> GetCountAsync()
+    public async Task<int> GetCountAsync()
     {
-        return Task.FromResult(_notes.Count);
+        return await _context.Notes.CountAsync();
     }
 }
-
-    

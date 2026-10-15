@@ -1,4 +1,9 @@
-A simple REST API built with C# and ASP.NET Core.
+## Project Status
+
+🚧 **Status: In Development**
+
+This project is actively being developed. New features, improvements, testing, and bug fixes are ongoing.
+Stage I- A simple REST API built with C# and ASP.NET Core.
 
 ## Features
 Create notes  
